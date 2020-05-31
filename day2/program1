@@ -1,0 +1,36 @@
+n= int(input("enter the number:"))
+if n>1:
+    for i in range(2,n):
+        if(n%i)==0:
+            print("the number is not prime")
+            break
+    else:
+            print("the number is prime")
+
+else:
+     print("the number is not prime")
+
+
+def isAngstrong (x):
+
+    temp = x
+    sum1 = 0
+    while (temp!=0):
+        r = temp%10
+        sum1 = sum1 + r**3
+        temp = temp//10
+    return(sum1 ==x)
+def check():
+    if(isAngstrong(n)):
+        print("is an angstrong number", n)
+
+check()
+
+if(n%2==0):
+    print("the number is even")
+else:
+    print("the number is odd")
+
+    print("the given number is :"+ str(n))
+    res = str(n) == str(n)[::-1]
+    print("the number is palindrome:"+str(res))
