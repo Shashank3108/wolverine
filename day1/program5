@@ -1,0 +1,26 @@
+a= int(input("score of player 1:"))
+b=int(input("score of player 2:"))
+c=int(input("score of player 3:"))
+D= a*100/60
+E= b*100/60
+F= c*100/60
+
+print("strike rate of player 1:",D)
+print("strike rate of player 2:",E)
+print("strike rate of player 3:",F)
+
+J = 2*a
+K = 2*b
+L = 2*c
+
+print("score of player 1 after another 60 balls:",J)
+print("score of player 2 after another 60 balls:",K)
+print("score of player 3 after another 60 balls:",L)
+
+M= a//6
+N= b//6
+O= c//6
+
+print("maximun sixes hit by player 1:",M)
+print("maximun sixes hit by player 2:",N)
+print("maximun sixes hit by player 3:",O)
