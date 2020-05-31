@@ -1,0 +1,8 @@
+A=int(input("enter a number:"))
+B=int(input("enter another number:"))
+A=A+B
+B=A-B
+A=A-B
+print("after swapping numbers")
+print("first numbe rwill be :",A)
+print("second no will be :",B)
