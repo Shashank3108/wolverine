@@ -1,0 +1,8 @@
+costprice=float(input("enter cost price :"))
+sellingprice=float(input("enter selling price :"))
+profit = sellingprice - costprice
+
+print("profit will be :",profit)
+Sp= profit*1.05 + costprice
+
+print("for icreasing profit for 5% selling price will be",Sp)
